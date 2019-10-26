@@ -10,6 +10,7 @@ add_action( 'wp_enqueue_scripts', 'enqueue_styles' );
 /*Footer Menu*/
 register_nav_menus(array(
 	'footer' => 'Footer Menu',
+	'lang' => 'Language Menu',
 ));
 
 /*Widgets*/
