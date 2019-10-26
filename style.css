@@ -62,3 +62,12 @@ nav.footer-navigation li {
 	list-style: none;
 	margin: 0 10px;
 }
+
+.donate-cta{
+    background-color: rgba(50, 118, 119, .12);
+    height : 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
