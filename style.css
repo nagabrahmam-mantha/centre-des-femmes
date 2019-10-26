@@ -227,47 +227,52 @@ ul#lang-menu li a:disabled {
     max-width: 720px;
 }
 
-.primary-btn a {
-	background: #327677;
+.has-primary-color-background-color {
+	background: #327677 !important;
+	color: white !important;
 }
 
-.primary-btn a:hover {
-	background: #4EA8A5;
+.has-primary-color-background-color:hover {
+	background: #4EA8A5 !important;
+	color: white !important;
 }
 
-.primary-btn a:active {
-	background: #5D4F7F;
+.has-primary-color-background-color:active {
+	background: #5D4F7F !important;
+	color: white !important;
 }
 
-.primary-btn a:disabled {
-	background: #8D8D8E;
+.has-primary-color-background-color:disabled {
+	background: #8D8D8E !important;
+	color: white !important;
 }
 
-.primary-btn a:focus {
-	background: #327677;
+.has-primary-color-background-color:focus {
+	background: #327677 !important;
+	color: white !important;
 }
 
-.secondary-btn a {
-	background: #79E2DA;
-	color: #428985;
+.has-secondary-color-background-color {
+	background: #79E2DA !important;
+	color: #428985 !important;
 }
 
-.secondary-btn a:hover {
-	background: #FFFFFF;
-	color: #428985;
+.has-secondary-color-background-color:hover {
+	background: #FFFFFF !important;
+	color: #428985 !important;
 }
 
-.secondary-btn a:active {
-	background: #79E2DA;
-	color: #428985;
+.has-secondary-color-background-color:active {
+	background: #79E2DA !important;
+	color: #428985 !important;
 }
 
-.secondary-btn a:disabled {
-	background: #D4D4D6;
-	color: #428985;
+.has-secondary-color-background-color:disabled {
+	background: #D4D4D6 !important;
+	color: #428985 !important;
 }
 
-.secondary-btn a:focus {
-	background: #79E2DA;
-	color: #8D8D8E;
+.has-secondary-color-background-color:focus {
+	background: #79E2DA !important;
+	color: #8D8D8E !important;
 }
