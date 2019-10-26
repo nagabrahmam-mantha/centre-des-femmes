@@ -203,3 +203,48 @@ ul#lang-menu li a {
 .wp-block-cover__inner-container{
     max-width: 720px;
 }
+
+.primary-btn a {
+	background: #327677;
+}
+
+.primary-btn a:hover {
+	background: #4EA8A5;
+}
+
+.primary-btn a:active {
+	background: #5D4F7F;
+}
+
+.primary-btn a:disabled {
+	background: #8D8D8E;
+}
+
+.primary-btn a:focus {
+	background: #327677;
+}
+
+.secondary-btn a {
+	background: #79E2DA;
+	color: #428985;
+}
+
+.secondary-btn a:hover {
+	background: #FFFFFF;
+	color: #428985;
+}
+
+.secondary-btn a:active {
+	background: #79E2DA;
+	color: #428985;
+}
+
+.secondary-btn a:disabled {
+	background: #D4D4D6;
+	color: #428985;
+}
+
+.secondary-btn a:focus {
+	background: #79E2DA;
+	color: #8D8D8E;
+}
