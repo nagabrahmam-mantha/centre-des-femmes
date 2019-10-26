@@ -83,3 +83,7 @@ nav.footer-navigation li {
 ul#primary-menu li a {
 	color: #5D4F7F;
 }
+
+.wp-block-cover__inner-container{
+    max-width: 720px;
+}
