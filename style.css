@@ -60,6 +60,10 @@ ul li{
 
 }
 
+.has-normal-font-size,
+.has-normal-font-size {
+	font-size: 18px;
+}
 /*Footer Navigation*/
 
 .site-footer {
