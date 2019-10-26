@@ -56,6 +56,17 @@ a {
 }
 
 /*Footer Navigation*/
+
+.site-footer {
+	background: #5D4F7F;
+	color: #FFFFFF;
+
+}
+
+.site-info {
+	padding: 20px 0;
+}
+
 nav.footer-navigation ul {
 	display: flex;
 }
@@ -65,6 +76,17 @@ nav.footer-navigation li {
 	margin: 0 10px;
 }
 
+nav.footer-navigation li a{
+	font-size: 22px;
+	font-family: 'Archivo', sans-serif;
+}
+
+.social-footer i {
+	margin: 0 5px;
+	font-size: 24px;
+}
+
+/*Donate*/
 .donate-cta{
     background-color: rgba(50, 118, 119, .12);
     height : 100px;

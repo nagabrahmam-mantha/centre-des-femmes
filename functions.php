@@ -8,7 +8,20 @@ function enqueue_styles() {
 add_action( 'wp_enqueue_scripts', 'enqueue_styles' );
 
 /*Footer Menu*/
-
 register_nav_menus(array(
 	'footer' => 'Footer Menu',
 ));
+
+/*Widgets*/
+function add_widgets() {
+	register_sidebar( array(
+		'name'          => 'Footer Social',
+		'id'            => 'footer-social',
+		'description'   => 'Add widgets here to appear in your footer.',
+		'before_widget' => '<section id="%1$s" class="widget %2$s social-footer">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'add_widgets' );
