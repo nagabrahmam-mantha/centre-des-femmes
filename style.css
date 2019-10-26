@@ -147,7 +147,7 @@ ul#primary-menu li a:hover {
 	border-bottom: 3px solid #5D4F7F;
 }
 
-ul#primary-menu .current-menu-item {
+ul#primary-menu .current-menu-item a {
 	border-bottom: 3px solid #327677;
 }
 
