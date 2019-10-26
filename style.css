@@ -109,6 +109,13 @@ nav.footer-navigation li a{
     align-items: center;
 }
 
+.wp-block-button__link.has-background {
+    padding: .4em 2em!Important;
+    font-family: 'Lora', serif;
+    font-weight: 800!Important;
+    font-size: 23px!Important;
+    border-radius: 8px!Important;
+}
 
 /*Main Menu*/
 .main-navigation {
