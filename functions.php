@@ -25,3 +25,8 @@ function add_widgets() {
 	) );
 }
 add_action( 'widgets_init', 'add_widgets' );
+
+/**
+ * Custom template tags for this theme.
+ */
+require get_stylesheet_directory() . '/inc/template-tags.php';
