@@ -37,3 +37,27 @@ function business_theme_posted_on() {
 
 }
 
+/**
+ * Prints HTML with meta information for the categories, tags and comments.
+ */
+function business_theme_entry_footer() {
+
+	// Tags and Categories were here
+
+	edit_post_link(
+		sprintf(
+			wp_kses(
+			/* translators: %s: Name of current post. Only visible to screen readers */
+				__( 'Edit <span class="screen-reader-text">%s</span>', 'business_theme' ),
+				array(
+					'span' => array(
+						'class' => array(),
+					),
+				)
+			),
+			get_the_title()
+		),
+		'<span class="edit-link">',
+		'</span>'
+	);
+}
