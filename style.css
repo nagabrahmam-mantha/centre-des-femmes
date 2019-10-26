@@ -43,11 +43,12 @@ h1 {
 
 h2 {
 	font-size: 32px;
+	color: #327677;
 }
 
 h3 {
-    font-size: 24px;
-    color: #000000;
+	font-size: 24px;
+	color: #000000;
 }
 
 a {
@@ -55,8 +56,24 @@ a {
 }
 
 /*Footer Navigation*/
+
+.site-footer {
+	background: #5D4F7F;
+	color: #FFFFFF;
+
+}
+
+.site-info {
+	padding: 20px;
+}
+
+nav.footer-navigation {
+	margin: 0 auto 15px auto;
+}
+
 nav.footer-navigation ul {
 	display: flex;
+	padding: 0;
 }
 
 nav.footer-navigation li {
@@ -64,6 +81,21 @@ nav.footer-navigation li {
 	margin: 0 10px;
 }
 
+nav.footer-navigation li a{
+	font-size: 20px;
+	font-family: 'Archivo', sans-serif;
+}
+
+.social-footer {
+	text-align: center;
+}
+
+.social-footer i {
+	margin: 0 10px;
+	font-size: 20px;
+}
+
+/*Donate*/
 .donate-cta{
     background-color: rgba(50, 118, 119, .12);
     height : 100px;
@@ -75,16 +107,48 @@ nav.footer-navigation li {
 
 
 /*Main Menu*/
+<<<<<<< HEAD
 .main-navigation {
     border-bottom: 1px #327677 solid;
     border-top: 1px #327677 solid;
     padding: 12px;
 }
+=======
+
+>>>>>>> 07ae2597ab30b032716501bcff28a5170641cd0d
 
 ul#primary-menu li a {
 	color: #5D4F7F;
+	font-size: 20px;
 }
 
+.site-header .site-header-wrapper {
+	display: block;
+}
+
+.site-identity {
+	margin: 0 auto;
+  width: min-content;
+}
+
+.main-navigation {
+	text-align: center;
+}
+
+@media screen and (min-width: 815px) {
+	.main-navigation {
+		border-bottom: 1px #327677 solid;
+	  border-top: 1px #327677 solid;
+	  padding: 12px;
+	}
+
+	nav.footer-navigation {
+		margin: 0;	
+	}
+}
+
+
+/* */
 .wp-block-cover__inner-container{
     max-width: 720px;
 }
