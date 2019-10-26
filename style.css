@@ -65,7 +65,6 @@ ul li{
 .site-footer {
 	background: #5D4F7F;
 	color: #FFFFFF;
-
 }
 
 .site-info {
@@ -123,17 +122,27 @@ ul#primary-menu li a {
 	font-size: 20px;
 }
 
+ul#primary-menu .current-menu-item {
+	text-decoration: underline;
+}
+
 .site-header .site-header-wrapper {
 	display: block;
 }
 
 .site-identity {
-	margin: 0 auto;
   width: min-content;
+	margin: 20px auto;
 }
 
 .main-navigation {
 	text-align: center;
+}
+
+/*Lang Menu*/
+ul#lang-menu {
+  list-style: none;
+  text-align: center;
 }
 
 @media screen and (min-width: 815px) {
@@ -144,7 +153,7 @@ ul#primary-menu li a {
 	}
 
 	nav.footer-navigation {
-		margin: 0;	
+		margin: 0;
 	}
 }
 
