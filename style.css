@@ -141,6 +141,12 @@ ul#primary-menu li a {
 	font-size: 20px;
 }
 
+ul#primary-menu li a:hover {
+	color: #5D4F7F;
+	font-size: 20px;
+	border-bottom: 3px solid #5D4F7F;
+}
+
 ul#primary-menu .current-menu-item {
 	border-bottom: 3px solid #327677;
 }
