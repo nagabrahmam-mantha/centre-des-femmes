@@ -83,6 +83,7 @@ nav.footer-navigation ul {
 nav.footer-navigation li {
 	list-style: none;
 	margin: 0 10px;
+	color: white;
 }
 
 nav.footer-navigation li a{
@@ -150,6 +151,17 @@ ul#primary-menu .current-menu-item {
 ul#lang-menu {
   list-style: none;
   text-align: center;
+	display: flex;
+  justify-content: center;
+}
+
+ul#lang-menu li {
+  margin: 15px;
+	text-transform: uppercase;
+}
+
+ul#lang-menu li a {
+    color: black;
 }
 
 @media screen and (min-width: 815px) {
