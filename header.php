@@ -23,6 +23,17 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'business_theme' ); ?></a>
 		<header id="masthead" class="site-header">
 			<div class="site-header-wrapper">
+				<?php if ( has_nav_menu( 'lang' ) ) : ?>
+					<nav class="lang-navigation">
+						<?php
+							wp_nav_menu( array(
+								'theme_location' => 'lang',
+								'menu_id'        => 'lang-menu',
+							) );
+						?>
+					</nav>
+				<?php endif; ?>
+				
 				<div class="site-identity">
 					<?php the_custom_logo(); ?>
 
@@ -42,17 +53,6 @@
 						endif; ?>
 					</div>
 				</div><!-- .site-identity -->
-
-				<?php if ( has_nav_menu( 'lang' ) ) : ?>
-					<nav class="lang-navigation">
-						<?php
-							wp_nav_menu( array(
-								'theme_location' => 'lang',
-								'menu_id'        => 'lang-menu',
-							) );
-						?>
-					</nav>
-				<?php endif; ?>
 
 				<?php if ( has_nav_menu( 'menu-1' ) ) : ?>
 				<nav id="site-navigation" class="main-navigation">
