@@ -118,6 +118,10 @@ nav.footer-navigation li a{
     border-radius: 8px!Important;
 }
 
+.wp-block-group.alignwide.has-background {
+	background-color: white!Important;
+}
+
 /*Main Menu*/
 ul#primary-menu li a {
 	color: #5D4F7F;
