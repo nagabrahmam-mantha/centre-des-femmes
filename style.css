@@ -123,6 +123,14 @@ nav.footer-navigation li a{
 }
 
 /*Main Menu*/
+.site-header {
+	border-bottom: none;
+}
+
+ul#primary-menu {
+	background: #E6EEEE;
+}
+
 ul#primary-menu li a {
 	color: #5D4F7F;
 	font-size: 20px;
@@ -142,7 +150,7 @@ ul#primary-menu .current-menu-item a {
 
 .site-identity {
   width: min-content;
-	margin: 20px auto;
+	margin: 0px auto;
 }
 
 .main-navigation {
@@ -163,7 +171,13 @@ ul#lang-menu li {
 }
 
 ul#lang-menu li a {
-    color: black;
+  color: black;
+}
+
+.menu-toggle {
+	position: unset;
+	font-size: 18px;
+	margin-top: 20px;
 }
 
 @media screen and (min-width: 815px) {
@@ -171,10 +185,15 @@ ul#lang-menu li a {
 		border-bottom: 1px #327677 solid;
 	  border-top: 1px #327677 solid;
 	  padding: 12px;
+    margin: 20px 0 0 0;
 	}
 
 	nav.footer-navigation {
 		margin: 0;
+	}
+
+	ul#primary-menu {
+		background: #FFFFFF;
 	}
 }
 
