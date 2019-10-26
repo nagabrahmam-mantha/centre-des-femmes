@@ -21,7 +21,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: 'Lora', serif;
+	font-family: 'helvetic', serif;
 }
 
 /* Remove padding and margin */ 
@@ -31,4 +31,8 @@ h1, h2, h3, h4, h5 {
     padding: 0; 
     border: 0; 
 }
+
+/* test comment */
+
+
 
