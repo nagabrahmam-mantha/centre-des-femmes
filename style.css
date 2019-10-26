@@ -71,3 +71,7 @@ nav.footer-navigation li {
     justify-content: center;
     align-items: center;
 }
+
+.wp-block-cover__inner-container{
+    max-width: 720px;
+}
