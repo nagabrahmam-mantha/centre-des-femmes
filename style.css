@@ -185,6 +185,19 @@ ul#lang-menu li a {
   color: black;
 }
 
+ul#lang-menu li a:active {
+	color: black;
+}
+
+ul#lang-menu li a:hover {
+	color: #8D8D8E;
+	border-bottom: 2px solid #8D8D8E;
+}
+
+ul#lang-menu li a:disabled {
+	color: #ADADB2;
+}
+
 .menu-toggle {
 	position: unset;
 	font-size: 18px;
