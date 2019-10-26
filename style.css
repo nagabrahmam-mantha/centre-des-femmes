@@ -101,26 +101,27 @@ nav.footer-navigation li a{
 }
 
 /*Donate*/
-.donate-cta{
-    background-color: rgba(50, 118, 119, .12);
+.donate-cta {
+    /*background-color: rgba(50, 118, 119, .12);*/
     height : 100px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.wp-block-button__link.has-background, .wp-block-button__link {
-    padding: .4em 2em!Important;
+    padding: .4em 2em;
     font-family: 'Lora', serif;
-    font-weight: 800!Important;
-    font-size: 23px!Important;
-    border-radius: 8px!Important;
+    font-weight: 800;
+    font-size: 23px;
+    border-radius: 8px;
 }
 
-.wp-block-group.alignwide.has-background {
-	background-color: white;
-}
+/*.wp-block-button__link.has-background, .wp-block-button__link {
+    padding: .4em 2em;
+    font-family: 'Lora', serif;
+    font-weight: 800;
+    font-size: 23px;
+    border-radius: 8px;
+}*/
 
 /*Main Menu*/
 .site-header {
