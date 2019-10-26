@@ -12,34 +12,33 @@
 /* Theme customization starts here
 -------------------------------------------------------------- */
 
-/* Custom Fonts */
-@import url('https://fonts.googleapis.com/css?family=Archivo&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+*
+    {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
 body {
 	font-family: 'Archivo', sans-serif;
 	color: #000000;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: 'Lora', serif;
 	color: #5D4F7F;
-}
-
-/* Remove padding and margin */ 
-*  
-    { 
-    margin: 0; 
-    padding: 0; 
-    border: 0; 
 }
 
 /* Primary Color - #5D4F7F */
 /* Secondary Color - #327677 */
 /* Body Text Color - #000000 */
 
+/*Footer Navigation*/
+nav.footer-navigation ul {
+	display: flex;
+}
 
-/* test comment */
-
-
-
+nav.footer-navigation li {
+	list-style: none;
+	margin: 0 10px;
+}
