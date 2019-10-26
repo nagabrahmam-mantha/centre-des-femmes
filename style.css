@@ -110,7 +110,7 @@ nav.footer-navigation li a{
     align-items: center;
 }
 
-.wp-block-button__link.has-background {
+.wp-block-button__link.has-background, .wp-block-button__link {
     padding: .4em 2em!Important;
     font-family: 'Lora', serif;
     font-weight: 800!Important;
